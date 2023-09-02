@@ -17,6 +17,3 @@ class Coxinha:
         """
 
         print(f'Toda coxinha tem um aspecto de {self.aspecto} e é feita de {self.composicao}')
-
-coxinha_de_batata_doce = Coxinha()
-coxinha_de_batata_doce.info()
