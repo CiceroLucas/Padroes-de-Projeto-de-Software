@@ -1,13 +1,13 @@
 class Coxinha:
 
-    def __init__(self):
+    def __init__(self, aspecto, composicao):
         """
         O construtor __init__ recebe um objeto e constroi aquele como uma instância da classe coxinha.
         self => objeto que recebe atribuições de aspecto e composição.
         """
 
-        self.aspecto = 'fast food delicioso'
-        self.composicao = 'massa frita e recheio'
+        self.aspecto = aspecto
+        self.composicao = composicao
         print('Uma nova coxinha foi criada')
 
     def info(self):
@@ -16,4 +16,4 @@ class Coxinha:
         self => Tem de ser um objeto da classe coxinha que utiliza do método info.
         """
 
-        print(f'Toda coxinha tem um aspecto de {self.aspecto} e é feita de {self.composicao}')
+        print(f'Essa coxinha tem um aspecto de {self.aspecto} e é feita de {self.composicao}')
