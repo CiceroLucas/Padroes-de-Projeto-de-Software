@@ -59,7 +59,7 @@
             ```python3
             class Personagem:
                 def __str__(self) -> str:
-                    return f"This is a class"
+                    return f"Isso é uma classe"
             ```
             
 
