@@ -6,7 +6,7 @@ class SistemaCadastral:
         if self.__verificar_dados(nome, idade):
             self.__armazena_usuario(nome, idade)
         else:
-            self.__erro
+            self.__erro()
 
     def __verificar_dados(self, nome: str, idade: int) -> bool:
         if isinstance(nome, str) and isinstance(idade, int):
