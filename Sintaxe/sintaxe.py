@@ -28,7 +28,6 @@ print("contei que o %s. 'não tinha %s." % (string_1, string_2))
 
 # Entradas
 nome = input(" qual o seu nome ? ")
-
 print("olá", nome)
 
 # Estruturas Condicionais (if-elif-else):
@@ -43,9 +42,8 @@ else:
 for i in range(5):
     print("Número:", i)
 
+
 # Funções:
-
-
 def saudacao(nome):
     return "Olá, " + nome + "!"
 
